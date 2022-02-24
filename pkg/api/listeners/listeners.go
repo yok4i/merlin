@@ -27,9 +27,9 @@ import (
 	uuid "github.com/satori/go.uuid"
 
 	// Merlin
-	"github.com/Ne0nd0g/merlin/pkg/api/messages"
-	"github.com/Ne0nd0g/merlin/pkg/listeners"
-	"github.com/Ne0nd0g/merlin/pkg/servers"
+	"github.com/yok4i/merlin/pkg/api/messages"
+	"github.com/yok4i/merlin/pkg/listeners"
+	"github.com/yok4i/merlin/pkg/servers"
 )
 
 // Exists determines if the input listener name is an instantiated object

@@ -36,11 +36,11 @@ import (
 	uuid "github.com/satori/go.uuid"
 
 	// Internal
-	"github.com/Ne0nd0g/merlin/pkg/agents"
-	messageAPI "github.com/Ne0nd0g/merlin/pkg/api/messages"
-	"github.com/Ne0nd0g/merlin/pkg/core"
-	merlinJob "github.com/Ne0nd0g/merlin/pkg/jobs"
-	"github.com/Ne0nd0g/merlin/pkg/messages"
+	"github.com/yok4i/merlin/pkg/agents"
+	messageAPI "github.com/yok4i/merlin/pkg/api/messages"
+	"github.com/yok4i/merlin/pkg/core"
+	merlinJob "github.com/yok4i/merlin/pkg/jobs"
+	"github.com/yok4i/merlin/pkg/messages"
 )
 
 // JobsChannel contains a map of all instantiated jobs created on the server by each Agent's ID

@@ -29,14 +29,14 @@ import (
 	"time"
 
 	// 3rd Party
-	"github.com/satori/go.uuid"
+	uuid "github.com/satori/go.uuid"
 
 	// Merlin
-	messageAPI "github.com/Ne0nd0g/merlin/pkg/api/messages"
-	"github.com/Ne0nd0g/merlin/pkg/core"
-	"github.com/Ne0nd0g/merlin/pkg/logging"
-	"github.com/Ne0nd0g/merlin/pkg/messages"
-	"github.com/Ne0nd0g/merlin/pkg/opaque"
+	messageAPI "github.com/yok4i/merlin/pkg/api/messages"
+	"github.com/yok4i/merlin/pkg/core"
+	"github.com/yok4i/merlin/pkg/logging"
+	"github.com/yok4i/merlin/pkg/messages"
+	"github.com/yok4i/merlin/pkg/opaque"
 )
 
 // Global Variables

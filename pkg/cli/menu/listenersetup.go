@@ -30,10 +30,10 @@ import (
 	uuid "github.com/satori/go.uuid"
 
 	// Merlin
-	agentAPI "github.com/Ne0nd0g/merlin/pkg/api/agents"
-	listenerAPI "github.com/Ne0nd0g/merlin/pkg/api/listeners"
-	"github.com/Ne0nd0g/merlin/pkg/api/messages"
-	"github.com/Ne0nd0g/merlin/pkg/cli/core"
+	agentAPI "github.com/yok4i/merlin/pkg/api/agents"
+	listenerAPI "github.com/yok4i/merlin/pkg/api/listeners"
+	"github.com/yok4i/merlin/pkg/api/messages"
+	"github.com/yok4i/merlin/pkg/cli/core"
 )
 
 // listenerType is used to track the type of listener the CLI is currently interacting with

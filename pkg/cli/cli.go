@@ -31,12 +31,12 @@ import (
 	"github.com/chzyer/readline"
 	"github.com/fatih/color"
 	"github.com/mattn/go-shellwords"
-	"github.com/satori/go.uuid"
+	uuid "github.com/satori/go.uuid"
 
 	// Merlin
-	"github.com/Ne0nd0g/merlin/pkg/api/messages"
-	"github.com/Ne0nd0g/merlin/pkg/cli/core"
-	"github.com/Ne0nd0g/merlin/pkg/cli/menu"
+	"github.com/yok4i/merlin/pkg/api/messages"
+	"github.com/yok4i/merlin/pkg/cli/core"
+	"github.com/yok4i/merlin/pkg/cli/menu"
 )
 
 // Global Variables

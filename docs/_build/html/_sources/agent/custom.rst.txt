@@ -10,7 +10,7 @@ Basic
 -----
 
 The provided Make file can be used to build a new agent from **source**. It is recommended that you first use
-``go get github.com/Ne0nd0g/merlin-agent`` to pull a copy of the Merlin source code to the host. Move into the Merlin root
+``go get github.com/yok4i/merlin-agent`` to pull a copy of the Merlin source code to the host. Move into the Merlin root
 directory where the Make file is located.
 
 * Windows agent: ``make windows``

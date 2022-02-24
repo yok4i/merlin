@@ -1,8 +1,8 @@
-[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/yadppqp12h445akx/branch/master?svg=true)](https://ci.appveyor.com/project/Ne0nd0g/merlin/branch/master)
-[![GoReportCard](https://goreportcard.com/badge/github.com/Ne0nd0g/merlin)](https://goreportcard.com/report/github.com/Ne0nd0g/merlin)
+[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/yadppqp12h445akx/branch/master?svg=true)](https://ci.appveyor.com/project/yok4i/merlin/branch/master)
+[![GoReportCard](https://goreportcard.com/badge/github.com/yok4i/merlin)](https://goreportcard.com/report/github.com/yok4i/merlin)
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-[![Release](https://img.shields.io/github/release/Ne0nd0g/merlin.svg)](https://github.com/Ne0nd0g/merlin/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/Ne0nd0g/merlin/total.svg)](https://github.com/Ne0nd0g/merlin/releases)
+[![Release](https://img.shields.io/github/release/Ne0nd0g/merlin.svg)](https://github.com/yok4i/merlin/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/yok4i/merlin/total.svg)](https://github.com/yok4i/merlin/releases)
 [![Twitter Follow](https://img.shields.io/twitter/follow/merlin_c2.svg?style=social&label=Follow)](https://twitter.com/merlin_c2)
 
 # Merlin
@@ -17,7 +17,7 @@ Highlighted features:
 
 - Supported C2 Protocols: http/1.1 clear-text, http/1.1 over TLS, HTTP/2, HTTP/2 clear-text (h2c), http/3 (http/2 over QUIC)
 - Server and Agent: Windows, Linux, macOS (Darwin), MIPS, ARM or anything Go can [natively build](https://golang.org/doc/install/source#environment)
-  - [Windows DLL Agent](https://github.com/Ne0nd0g/merlin-agent-dll)
+  - [Windows DLL Agent](https://github.com/yok4i/merlin-agent-dll)
 - Domain Fronting
 - Execute .NET assemblies in-process with `invoke-assembly` or in a sacrificial process with `execute-assembly`
 - Execute arbitrary Windows executables (PE) in a sacrificial process with `execute-pe` 
@@ -38,7 +38,7 @@ An introductory blog post can be found here: <https://medium.com/@Ne0nd0g/introd
 
 ## Quick Start
 
-1. Download the latest compiled version of Merlin Server from the [releases](https://github.com/Ne0nd0g/merlin/releases) section
+1. Download the latest compiled version of Merlin Server from the [releases](https://github.com/yok4i/merlin/releases) section
    > The Server package contains a compiled Agent for all the major operating systems in the `data/bin` directory
 2. Extract the files with 7zip using the `x` function **The password is: `merlin`**
 3. Start Merlin
@@ -48,21 +48,21 @@ An introductory blog post can be found here: <https://medium.com/@Ne0nd0g/introd
 
    ```
    mkdir /opt/merlin;cd /opt/merlin
-   wget https://github.com/Ne0nd0g/merlin/releases/latest/download/merlinServer-Linux-x64.7z
+   wget https://github.com/yok4i/merlin/releases/latest/download/merlinServer-Linux-x64.7z
    7z x merlinServer-Linux-x64.7z
    sudo ./merlinServer-Linux-x64
    ```
 
 ## Agents
 
-The [Merlin Agent](https://github.com/Ne0nd0g/merlin-agent) is kept in its own repository so that it can easily be 
+The [Merlin Agent](https://github.com/yok4i/merlin-agent) is kept in its own repository so that it can easily be 
 retrieved and compiled:
 
 ```text
-go get github.com/Ne0nd0g/merlin-agent
+go get github.com/yok4i/merlin-agent
 ```
 
-The [Windows DLL Agent](https://github.com/Ne0nd0g/merlin-agent-dll) is also kept in a separate repository.
+The [Windows DLL Agent](https://github.com/yok4i/merlin-agent-dll) is also kept in a separate repository.
 See the [DLL Agent](https://merlin-c2.readthedocs.io/en/latest/agent/dll.html) documentation for building instructions.
 
 ## Mythic

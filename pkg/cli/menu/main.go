@@ -20,10 +20,11 @@ package menu
 import (
 	// Standard
 	"fmt"
-	uuid "github.com/satori/go.uuid"
 	"os"
 	"strings"
 	"time"
+
+	uuid "github.com/satori/go.uuid"
 
 	// 3rd Party
 	"github.com/chzyer/readline"
@@ -31,13 +32,13 @@ import (
 	"github.com/olekukonko/tablewriter"
 
 	// Merlin
-	merlin "github.com/Ne0nd0g/merlin/pkg"
-	agentAPI "github.com/Ne0nd0g/merlin/pkg/api/agents"
-	"github.com/Ne0nd0g/merlin/pkg/api/messages"
-	moduleAPI "github.com/Ne0nd0g/merlin/pkg/api/modules"
-	"github.com/Ne0nd0g/merlin/pkg/cli/banner"
-	"github.com/Ne0nd0g/merlin/pkg/cli/core"
-	serverCore "github.com/Ne0nd0g/merlin/pkg/core"
+	merlin "github.com/yok4i/merlin/pkg"
+	agentAPI "github.com/yok4i/merlin/pkg/api/agents"
+	"github.com/yok4i/merlin/pkg/api/messages"
+	moduleAPI "github.com/yok4i/merlin/pkg/api/modules"
+	"github.com/yok4i/merlin/pkg/cli/banner"
+	"github.com/yok4i/merlin/pkg/cli/core"
+	serverCore "github.com/yok4i/merlin/pkg/core"
 )
 
 // handlerMain contains the logic to handle the "main" menu commands

@@ -23,7 +23,7 @@ import (
 	"fmt"
 
 	// Merlin
-	"github.com/Ne0nd0g/merlin/pkg/modules/shellcode"
+	"github.com/yok4i/merlin/pkg/modules/shellcode"
 )
 
 // Parse is the initial entry point for all extended modules. All validation checks and processing will be performed here

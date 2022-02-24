@@ -2,7 +2,7 @@
 DLL Agent
 #########
 
-The Merlin Agent can be compiled into a DLL using the https://github.com/Ne0nd0g/merlin-agent-dll repository.
+The Merlin Agent can be compiled into a DLL using the https://github.com/yok4i/merlin-agent-dll repository.
 The ``merlin.c`` file is a very simple C file with a single function.
 The ``VoidFunc`` and ``Run`` functions are exported to facilitate executing the DLL.
 

@@ -8,11 +8,11 @@ Merlin is a post-exploitation framework and therefore documentation doesn't cove
 
 | **Pre-compiled Merlin Agent binary files are distributed with the server download in the** ``data/bin/`` **directory of Merlin**
 
-The Merlin Agent source code can be found https://github.com/Ne0nd0g/merlin-agent
+The Merlin Agent source code can be found https://github.com/yok4i/merlin-agent
 
 Retrieve with Go and build the Agent::
 
-    go get github.com/Ne0nd0g/merlin-agent
+    go get github.com/yok4i/merlin-agent
 
 ----------------
 Upload & Execute
@@ -124,7 +124,7 @@ The `merlin.dll` file can be configured with the hardcoded url of your Merlin se
 example::
 
     cd /opt
-    git clone -b dev https://github.com/Ne0nd0g/merlin-agent-dll.git
+    git clone -b dev https://github.com/yok4i/merlin-agent-dll.git
     cd merlin-agent-dll
     sed -i 's_https://127.0.0.1:443/_https://192.168.1.100:443/_' main.go
     make

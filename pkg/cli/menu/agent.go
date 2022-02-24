@@ -31,9 +31,9 @@ import (
 	uuid "github.com/satori/go.uuid"
 
 	// Merlin
-	agentAPI "github.com/Ne0nd0g/merlin/pkg/api/agents"
-	"github.com/Ne0nd0g/merlin/pkg/api/messages"
-	"github.com/Ne0nd0g/merlin/pkg/cli/core"
+	agentAPI "github.com/yok4i/merlin/pkg/api/agents"
+	"github.com/yok4i/merlin/pkg/api/messages"
+	"github.com/yok4i/merlin/pkg/cli/core"
 )
 
 // agent is used to track the current agent that the CLI is interacting with

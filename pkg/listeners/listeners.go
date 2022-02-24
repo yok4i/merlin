@@ -26,10 +26,10 @@ import (
 	uuid "github.com/satori/go.uuid"
 
 	// Merlin
-	"github.com/Ne0nd0g/merlin/pkg/servers"
-	"github.com/Ne0nd0g/merlin/pkg/servers/http"
-	"github.com/Ne0nd0g/merlin/pkg/servers/http2"
-	"github.com/Ne0nd0g/merlin/pkg/servers/http3"
+	"github.com/yok4i/merlin/pkg/servers"
+	"github.com/yok4i/merlin/pkg/servers/http"
+	"github.com/yok4i/merlin/pkg/servers/http2"
+	"github.com/yok4i/merlin/pkg/servers/http3"
 )
 
 // Listeners contains all of the instantiated Listener objects

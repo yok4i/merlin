@@ -24,13 +24,14 @@ import (
 
 	// 3rd Party
 	"github.com/fatih/color"
+	merlin "github.com/yok4i/merlin/pkg"
 
 	// Merlin
-	"github.com/Ne0nd0g/merlin/pkg"
-	"github.com/Ne0nd0g/merlin/pkg/cli"
-	"github.com/Ne0nd0g/merlin/pkg/cli/banner"
-	"github.com/Ne0nd0g/merlin/pkg/logging"
-	"github.com/Ne0nd0g/merlin/pkg/pwnboard"
+
+	"github.com/yok4i/merlin/pkg/cli"
+	"github.com/yok4i/merlin/pkg/cli/banner"
+	"github.com/yok4i/merlin/pkg/logging"
+	"github.com/yok4i/merlin/pkg/pwnboard"
 )
 
 // Global Variables

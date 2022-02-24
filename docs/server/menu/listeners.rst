@@ -203,7 +203,7 @@ The ``start`` command is used to start a previously created and stopped Listener
     [+] Restarted Default HTTPS listener on 127.0.0.1:443
 
     [!] Insecure publicly distributed Merlin x.509 testing certificate in use for https server on 127.0.0.1:443
-    Additional details: https://github.com/Ne0nd0g/merlin/wiki/TLS-Certificates
+    Additional details: https://github.com/yok4i/merlin/wiki/TLS-Certificates
     Merlin[listeners]»
 
 stop
@@ -571,7 +571,7 @@ The ``execute`` command is used to create and start the Listener from the config
     Merlin[listeners][https]» execute
 
     [!] Insecure publicly distributed Merlin x.509 testing certificate in use for https server on 127.0.0.1:443
-    Additional details: https://github.com/Ne0nd0g/merlin/wiki/TLS-Certificates
+    Additional details: https://github.com/yok4i/merlin/wiki/TLS-Certificates
 
     [+] Default listener was created with an ID of: f6826564-000a-4edf-94b2-b79ee7d892a5
 
@@ -636,7 +636,7 @@ The ``run`` command is used to create and start the Listener from the configured
     Merlin[listeners][https]» run
 
     [!] Insecure publicly distributed Merlin x.509 testing certificate in use for https server on 127.0.0.1:443
-    Additional details: https://github.com/Ne0nd0g/merlin/wiki/TLS-Certificates
+    Additional details: https://github.com/yok4i/merlin/wiki/TLS-Certificates
 
     [+] Default listener was created with an ID of: 632db67c-7045-462f-bf09-aea90272aed5
     Merlin[listeners][Default]»
@@ -675,7 +675,7 @@ The ``show`` command is used to display the Listener template configurable optio
     +-------------+-----------------------------------------------------------------+
     | URLS        | /                                                               |
     +-------------+-----------------------------------------------------------------+
-    | X509Cert    | /home/joe/go/src/github.com/Ne0nd0g/merlin/data/x509/server.crt |
+    | X509Cert    | /home/joe/go/src/github.com/yok4i/merlin/data/x509/server.crt |
     +-------------+-----------------------------------------------------------------+
     | Protocol    | https                                                           |
     +-------------+-----------------------------------------------------------------+
@@ -685,7 +685,7 @@ The ``show`` command is used to display the Listener template configurable optio
     +-------------+-----------------------------------------------------------------+
     | PSK         | merlin                                                          |
     +-------------+-----------------------------------------------------------------+
-    | X509Key     | /home/joe/go/src/github.com/Ne0nd0g/merlin/data/x509/server.key |
+    | X509Key     | /home/joe/go/src/github.com/yok4i/merlin/data/x509/server.key |
     +-------------+-----------------------------------------------------------------+
     | Name        | Merlin Demo Listener                                            |
     +-------------+-----------------------------------------------------------------+
@@ -708,7 +708,7 @@ The ``start`` command is used to create and start the Listener from the configur
     [+] Started HTTPS listener on 127.0.0.1:443
 
     [!] Insecure publicly distributed Merlin x.509 testing certificate in use for https server on 127.0.0.1:443
-    Additional details: https://github.com/Ne0nd0g/merlin/wiki/TLS-Certificates
+    Additional details: https://github.com/yok4i/merlin/wiki/TLS-Certificates
     Merlin[listeners][Default]»
 
 !

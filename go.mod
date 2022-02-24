@@ -1,4 +1,4 @@
-module github.com/Ne0nd0g/merlin
+module github.com/yok4i/merlin
 
 require (
 	github.com/Binject/debug v0.0.0-20201228082058-60012895f187 // indirect

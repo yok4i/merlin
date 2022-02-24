@@ -36,10 +36,10 @@ import (
 	uuid "github.com/satori/go.uuid"
 
 	// Merlin
-	"github.com/Ne0nd0g/merlin/pkg/api/messages"
-	"github.com/Ne0nd0g/merlin/pkg/core"
-	"github.com/Ne0nd0g/merlin/pkg/handlers"
-	"github.com/Ne0nd0g/merlin/pkg/servers"
+	"github.com/yok4i/merlin/pkg/api/messages"
+	"github.com/yok4i/merlin/pkg/core"
+	"github.com/yok4i/merlin/pkg/handlers"
+	"github.com/yok4i/merlin/pkg/servers"
 )
 
 // Server is a structure for the HTTP/2 clear-text (h2c) server

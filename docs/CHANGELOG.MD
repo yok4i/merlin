@@ -18,7 +18,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Fixed
 
-- [merlin-agent/Issue 6](https://github.com/Ne0nd0g/merlin-agent/issues/6) - Message padding is now a random length instead of a fixed length
+- [merlin-agent/Issue 6](https://github.com/yok4i/merlin-agent/issues/6) - Message padding is now a random length instead of a fixed length
 
 ## 1.2.0 - 2021-12-12
 
@@ -42,8 +42,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Fixed
 
-* [issue 116](https://github.com/Ne0nd0g/merlin/issues/116) - Fixed missing statement to enable verbose & debug output for the server component
-* [issue 119](https://github.com/Ne0nd0g/merlin/issues/116) - Add specific agent ID instead of broadcast "F" agent ID
+* [issue 116](https://github.com/yok4i/merlin/issues/116) - Fixed missing statement to enable verbose & debug output for the server component
+* [issue 119](https://github.com/yok4i/merlin/issues/116) - Add specific agent ID instead of broadcast "F" agent ID
 
 ## 1.1.0 - 2021-08-5
 
@@ -103,7 +103,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Fixed
 
-- [Issue 107](https://github.com/Ne0nd0g/merlin/issues/107) - RunModule() tasking uses `run` instead of removed `cmd`
+- [Issue 107](https://github.com/yok4i/merlin/issues/107) - RunModule() tasking uses `run` instead of removed `cmd`
 
 ## 1.0.0 - 2021-04-18
 
@@ -185,7 +185,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Fixed
 
 - Modules were not sending the first value from the modules commands section
-- [Pull 97](https://github.com/Ne0nd0g/merlin/pull/97) - Incorrectly validated the module and agent platforms when the agent was set to "all"
+- [Pull 97](https://github.com/yok4i/merlin/pull/97) - Incorrectly validated the module and agent platforms when the agent was set to "all"
 
 ## 0.9.0 - 2020-09-13
 
@@ -223,9 +223,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Catch errors returned when starting a server (i.e insufficient privileges to bind to a port)
 - hq listener would fail when in-memory x.509 certificates were used
 - Invoke-M.i.m.i.k.a.t.z module points to the updated version of M.i.m.i.k.a.t.z (2.2.0) in the Empire 3.0 repository
-- [Issue 88](https://github.com/Ne0nd0g/merlin/issues/88) - Set option will now take all arguments after a space
+- [Issue 88](https://github.com/yok4i/merlin/issues/88) - Set option will now take all arguments after a space
 - Added module type to LinEnum, MimiPenguin, and SwapDigger
-- [Issue 71](https://github.com/Ne0nd0g/merlin/issues/71) - Run a module against all agents
+- [Issue 71](https://github.com/yok4i/merlin/issues/71) - Run a module against all agents
 
 ## Changed
 
@@ -251,7 +251,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Fixed
 
-- [Issue 77](https://github.com/Ne0nd0g/merlin/issues/77) - Set server and agent log files with `0640` permissions
+- [Issue 77](https://github.com/yok4i/merlin/issues/77) - Set server and agent log files with `0640` permissions
 
 ## 0.8.0 - 2019-08-20
 
@@ -270,14 +270,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Added `PROXY=` to Make file so the binaries can be hard coded with the proxy
 - Added PRISM application to detect a Merlin server
 - Added in CLI option to set HTTP Host header for domain fronting
-- [Pull 72](https://github.com/Ne0nd0g/merlin/pull/72) - Added a Linux module that will hide the Merlin process from tools that walk the /proc filesystem by @ForensicITGuy
-- [Pull 73](https://github.com/Ne0nd0g/merlin/pull/74) - Added 5 Linux evasion and persistence modules by @ForensicITGuy
-- [Pull 76](https://github.com/Ne0nd0g/merlin/pull/76) - Prompt user to confirm exit or quit by [Daniel Roberson](https://github.com/droberson)
+- [Pull 72](https://github.com/yok4i/merlin/pull/72) - Added a Linux module that will hide the Merlin process from tools that walk the /proc filesystem by @ForensicITGuy
+- [Pull 73](https://github.com/yok4i/merlin/pull/74) - Added 5 Linux evasion and persistence modules by @ForensicITGuy
+- [Pull 76](https://github.com/yok4i/merlin/pull/76) - Prompt user to confirm exit or quit by [Daniel Roberson](https://github.com/droberson)
 
 ### Fixed
 
-- [Pull 74](https://github.com/Ne0nd0g/merlin/pull/74) - Fixed issued that would crash the agent if the skew was set to 0 by @alexbires
-- [Issue 54](https://github.com/Ne0nd0g/merlin/issues/54) - Prompt to exit server when user types "quit" or "exit"
+- [Pull 74](https://github.com/yok4i/merlin/pull/74) - Fixed issued that would crash the agent if the skew was set to 0 by @alexbires
+- [Issue 54](https://github.com/yok4i/merlin/issues/54) - Prompt to exit server when user types "quit" or "exit"
 
 ### Changed
 
@@ -300,29 +300,29 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Fixed
 
--[Issue 69](https://github.com/Ne0nd0g/merlin/issues/69) - Error with modules missing type definition
--[Issue 70](https://github.com/Ne0nd0g/merlin/issues/70) - Error parsing a shellcode file containing raw bytes
+-[Issue 69](https://github.com/yok4i/merlin/issues/69) - Error with modules missing type definition
+-[Issue 70](https://github.com/yok4i/merlin/issues/70) - Error parsing a shellcode file containing raw bytes
 
 ## 0.7.0 - 2019-04-11
 
 ### Added
-- [Pull 48](https://github.com/Ne0nd0g/merlin/pull/48) - Added `ls` command to agent & agent menu. Uses go code native to Merlin instead of executing `ls` or `dir` binary
+- [Pull 48](https://github.com/yok4i/merlin/pull/48) - Added `ls` command to agent & agent menu. Uses go code native to Merlin instead of executing `ls` or `dir` binary
 - New `NativeCmd` message struct for commands native to Merlin
-- [Pull 49](https://github.com/Ne0nd0g/merlin/pull/49) - Added tests for agent package and new `/test` directory for test HTTP server
-- [Pull 50](https://github.com/Ne0nd0g/merlin/pull/50) - Adds a killdate option to agents
+- [Pull 49](https://github.com/yok4i/merlin/pull/49) - Added tests for agent package and new `/test` directory for test HTTP server
+- [Pull 50](https://github.com/yok4i/merlin/pull/50) - Adds a killdate option to agents
   - Added `set killdate` to Merlin Server agent menu and information table so that it can be changed from the server.
-- [Pull 51](https://github.com/Ne0nd0g/merlin/pull/51) - Adds a Go native `minidump` module for Windows agents to create and receive a minidump file of a specified process (requires elevation)
+- [Pull 51](https://github.com/yok4i/merlin/pull/51) - Adds a Go native `minidump` module for Windows agents to create and receive a minidump file of a specified process (requires elevation)
   - windows/x64/go/credentials/minidump.json module (@C__Sto)
   - getProcess Function to exec_windows.go
   - sePrivEnable Function to exec_windows.go
   - MinidumpFile struct to modules.go
   - Module struct to messages.go
   - agent_windows_test.go to test miniDump functionality 
-- [Pull 58](https://github.com/Ne0nd0g/merlin/pull/58) - Added feature to generate in-memory TLS certificates one is not provided
+- [Pull 58](https://github.com/yok4i/merlin/pull/58) - Added feature to generate in-memory TLS certificates one is not provided
   - Adds new `pkg/utils/tls.go` package to generate TLS certificates
   - Updated Merlin server log to include certificate information
   - Test case for TLS certificate generation
-- [Pull 60](https://github.com/Ne0nd0g/merlin/pull/60) - Added `pwd` and `cd` command to agent & agent menu. 
+- [Pull 60](https://github.com/yok4i/merlin/pull/60) - Added `pwd` and `cd` command to agent & agent menu. 
   - Uses go code native to Merlin instead of executing system binaries or access the system's CLI.
 - merlin.dll contains a DllMain function and a function named Magic to instantiate a Merlin agent
     - DllMain does nothing
@@ -330,10 +330,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Shellcode Reflective DLL Injection (sRDI) module windows/x64/go/exec/sRDI
 - Shellcode injection module at windows/x64/go/exec/shellcode provides same functionality as execute-shellcode from Agent menu
 - "extended" module types that call Go code from the pkg/modules directory
-- [Pull 64](https://github.com/Ne0nd0g/merlin/pull/64) - Added in Dockerfile by Alex Flores (@audibleblink)
+- [Pull 64](https://github.com/yok4i/merlin/pull/64) - Added in Dockerfile by Alex Flores (@audibleblink)
 
 ### Fixed
-- [Pull 57](https://github.com/Ne0nd0g/merlin/pull/57) - Resolved broken JSON does not increment failedCheckin counter on Merlin agent
+- [Pull 57](https://github.com/yok4i/merlin/pull/57) - Resolved broken JSON does not increment failedCheckin counter on Merlin agent
 
 ### Changed
 - Changed SHA1 library to SHA256 and checks from http2.go for publicly distributed Merlin Server test certificate
@@ -342,7 +342,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Merlin Server uses exit code 0 after printing usage information
 
 ### Removed
-- Removed publicly distributed certificates from repository see [Pull 58](https://github.com/Ne0nd0g/merlin/pull/58).
+- Removed publicly distributed certificates from repository see [Pull 58](https://github.com/yok4i/merlin/pull/58).
 - Removed "main" and "ReflectiveLoader" functions from merlin.dll/merlin.c
 
 ## 0.6.8 - 2019-01-26
@@ -360,7 +360,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## 0.6.7 - 2019-01-22
 
 ### Added
-- [Pull 45](https://github.com/Ne0nd0g/merlin/pull/45) - Added a module for Python-based SOCKS proxying (@klusitc)
+- [Pull 45](https://github.com/yok4i/merlin/pull/45) - Added a module for Python-based SOCKS proxying (@klusitc)
 
 ### Changed
 - Modified http2.go to remove `[+]` & `[!]` from shell command results printed to the terminal
@@ -372,17 +372,17 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Changed
 
-- [Pull 43](https://github.com/Ne0nd0g/merlin/pull/43) - Gives users the ability to dynamically
+- [Pull 43](https://github.com/yok4i/merlin/pull/43) - Gives users the ability to dynamically
 assign the callback URL variable at compile time by setting the URL= var in the make command by Alex Flores (@audibleblink)
 
 ### Fixed
-- [Pull 44](https://github.com/Ne0nd0g/merlin/pull/44) Fixes case-sensitive autocompletion of `agent`
+- [Pull 44](https://github.com/yok4i/merlin/pull/44) Fixes case-sensitive autocompletion of `agent`
   on the module menu (@audibleblink)
 
 ## 0.6.5 - 2019-01-10
 
 ### Fixed
-- [Issue 41](https://github.com/Ne0nd0g/merlin/issues/41) Error when downloading a file using a path containing a space
+- [Issue 41](https://github.com/yok4i/merlin/issues/41) Error when downloading a file using a path containing a space
 
 ### Changed
 - Updated `download` command to correctly parse a remote file path containing a space
@@ -421,9 +421,9 @@ assign the callback URL variable at compile time by setting the URL= var in the 
 - Added additional `-X` compile flag to set the build in the Agent package
 
 ### Changed
-- [Issue 26](https://github.com/Ne0nd0g/merlin/issues/26) Updated Makefile to remove .dmg file extension for Darwin
-- [Issue 23](https://github.com/Ne0nd0g/merlin/issues/23) Error when using upload command without specific arguments
-- [Issue 28](https://github.com/Ne0nd0g/merlin/issues/28) Updated MimiPenguin module to use new path to download mimipenguin.sh
+- [Issue 26](https://github.com/yok4i/merlin/issues/26) Updated Makefile to remove .dmg file extension for Darwin
+- [Issue 23](https://github.com/yok4i/merlin/issues/23) Error when using upload command without specific arguments
+- [Issue 28](https://github.com/yok4i/merlin/issues/28) Updated MimiPenguin module to use new path to download mimipenguin.sh
 - Modified `cmd/merlinagentdll/main.go` Global variable from `URL` to `url` for consistency across all packages
 
 ## 0.6.2 - 2018-09-02
@@ -435,7 +435,7 @@ assign the callback URL variable at compile time by setting the URL= var in the 
 - Added "initial" field to agent.Agent struct
 
 ### Fixed
-- [Issue 23](https://github.com/Ne0nd0g/merlin/issues/23) Error writing an agent log entry when agent was set to 'all'
+- [Issue 23](https://github.com/yok4i/merlin/issues/23) Error writing an agent log entry when agent was set to 'all'
 - Out of range error when setting module options in Run function
 
 ## 0.6.1 - 2018-08-11
